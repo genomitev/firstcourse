@@ -1,0 +1,122 @@
+* {  box-sizing: border-box; }
+
+body { 
+	font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+
+h1{
+	text-align:center;
+}
+
+
+.menu-item1 {
+	margin-bottom: 5px;
+	width:32%;
+	border: 2px solid black;
+	margin-left: 5px;
+	padding: 10px;
+	margin-right: 5px;
+	float: left;
+}
+
+.menu-item2 {
+	margin-bottom: 5px;
+	width:32%;
+	border: 2px solid black;
+	margin-left: 5px;
+	padding: 10px;
+	margin-right: 5px;
+	float: left;
+}
+
+.menu-item3 {
+	margin-bottom: 5px;
+	width:32%;
+	border: 2px solid black;
+	margin-left: 5px;
+	padding: 10px;
+	margin-right: 5px;
+	float: left;
+}
+
+div.chicken  { 
+	background-color:pink;
+	border: 2px solid black;
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 10px ;
+	text-align:center;
+	margin-right: -10px;
+	width: 120px;
+	top: -10px;
+	 }
+div.beef  { 
+	color: white;
+	border: 2px solid black;
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 10px ;
+	margin-right: -10px;
+	text-align:center;
+	width: 120px;
+	top: -10px;
+	background-color:red;
+	 }
+div.sushi  { 
+	border: 2px solid black;
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 10px ;
+	margin-right: -10px;
+	text-align:center;
+	width: 120px;
+	top: -10px;
+	background-color:yellow;
+	 }
+
+
+/*MEDIA QUARIES*/
+
+/* FOR TABLETS*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+ 
+ .menu-item {
+ 	width: 50%;
+ 	float: left;
+ 	margin-right: 1px;
+ }
+
+ .menu-item2 {
+ 	width: 50%;
+ 	float: right;
+ 	margin-left: 1px;
+ }
+
+ .menu-item3 {
+ 	width: 99%;
+ }
+
+	}
+	
+
+/*FOR MOBILES*/
+ @media screen and (max-width: 767px) {
+
+	.menu-item1 {
+		width: auto;
+		float: none;
+			}
+			
+	.menu-item2 {
+		width: auto;
+		float: none;
+			}
+			
+	.menu-item3 {
+		width: auto;
+		float: none;
+			}
+} 
